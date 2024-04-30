@@ -17,7 +17,7 @@ export class UsuarioService {
             where: {
                 usuario: usuario
             }
-        })
+        });
     }
 
     async findAll(): Promise<Usuario[]> {
