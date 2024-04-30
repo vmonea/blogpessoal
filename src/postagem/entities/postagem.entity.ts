@@ -1,4 +1,3 @@
-import { Transform, TransformFnParams } from "class-transformer";
 import { IsNotEmpty } from "class-validator";
 import { Tema } from "../../tema/entities/tema.entity";
 import { Usuario } from "../../usuario/entities/usuario.entity";
